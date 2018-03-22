@@ -13,6 +13,24 @@
 		90FA2FA420639CAC001E18B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FA2FA320639CAC001E18B5 /* Assets.xcassets */; };
 		90FA2FA720639CAC001E18B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FA2FA520639CAC001E18B5 /* LaunchScreen.storyboard */; };
 		90FA2FAA20639CAC001E18B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FA920639CAC001E18B5 /* main.m */; };
+		90FA2FE220639D08001E18B5 /* TTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FB320639D08001E18B5 /* TTFirstViewController.m */; };
+		90FA2FE320639D08001E18B5 /* TTFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90FA2FB420639D08001E18B5 /* TTFirstViewController.xib */; };
+		90FA2FE420639D08001E18B5 /* TTFirstInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FB720639D08001E18B5 /* TTFirstInfo.m */; };
+		90FA2FE520639D08001E18B5 /* TTCommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FBA20639D08001E18B5 /* TTCommonTableViewCell.m */; };
+		90FA2FE620639D08001E18B5 /* TTCommonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90FA2FBB20639D08001E18B5 /* TTCommonTableViewCell.xib */; };
+		90FA2FE720639D08001E18B5 /* TTFirstViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FBE20639D08001E18B5 /* TTFirstViewManager.m */; };
+		90FA2FE820639D08001E18B5 /* TTFirstViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FC120639D08001E18B5 /* TTFirstViewModel.m */; };
+		90FA2FE920639D08001E18B5 /* EPMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FC420639D08001E18B5 /* EPMediator.m */; };
+		90FA2FEA20639D08001E18B5 /* NSObject+TTProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FCA20639D08001E18B5 /* NSObject+TTProperties.m */; };
+		90FA2FEB20639D08001E18B5 /* UIView+TTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FCC20639D08001E18B5 /* UIView+TTAdditions.m */; };
+		90FA2FEC20639D08001E18B5 /* UIView+TTConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FCE20639D08001E18B5 /* UIView+TTConfigure.m */; };
+		90FA2FED20639D08001E18B5 /* UIView+TTEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FD020639D08001E18B5 /* UIView+TTEvents.m */; };
+		90FA2FEE20639D08001E18B5 /* TTSecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FD420639D08001E18B5 /* TTSecViewController.m */; };
+		90FA2FEF20639D08001E18B5 /* TTSecViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90FA2FD520639D08001E18B5 /* TTSecViewController.xib */; };
+		90FA2FF020639D08001E18B5 /* TTSecInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FD820639D08001E18B5 /* TTSecInfo.m */; };
+		90FA2FF120639D08001E18B5 /* TTCommmonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FDB20639D08001E18B5 /* TTCommmonView.m */; };
+		90FA2FF220639D08001E18B5 /* TTSecViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FDE20639D08001E18B5 /* TTSecViewManager.m */; };
+		90FA2FF320639D08001E18B5 /* TTSecViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2FE120639D08001E18B5 /* TTSecViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,43 @@
 		90FA2FA620639CAC001E18B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90FA2FA820639CAC001E18B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90FA2FA920639CAC001E18B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90FA2FB220639D08001E18B5 /* TTFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFirstViewController.h; sourceTree = "<group>"; };
+		90FA2FB320639D08001E18B5 /* TTFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFirstViewController.m; sourceTree = "<group>"; };
+		90FA2FB420639D08001E18B5 /* TTFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTFirstViewController.xib; sourceTree = "<group>"; };
+		90FA2FB620639D08001E18B5 /* TTFirstInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFirstInfo.h; sourceTree = "<group>"; };
+		90FA2FB720639D08001E18B5 /* TTFirstInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFirstInfo.m; sourceTree = "<group>"; };
+		90FA2FB920639D08001E18B5 /* TTCommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCommonTableViewCell.h; sourceTree = "<group>"; };
+		90FA2FBA20639D08001E18B5 /* TTCommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCommonTableViewCell.m; sourceTree = "<group>"; };
+		90FA2FBB20639D08001E18B5 /* TTCommonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTCommonTableViewCell.xib; sourceTree = "<group>"; };
+		90FA2FBD20639D08001E18B5 /* TTFirstViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFirstViewManager.h; sourceTree = "<group>"; };
+		90FA2FBE20639D08001E18B5 /* TTFirstViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFirstViewManager.m; sourceTree = "<group>"; };
+		90FA2FC020639D08001E18B5 /* TTFirstViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFirstViewModel.h; sourceTree = "<group>"; };
+		90FA2FC120639D08001E18B5 /* TTFirstViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFirstViewModel.m; sourceTree = "<group>"; };
+		90FA2FC320639D08001E18B5 /* EPMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMediator.h; sourceTree = "<group>"; };
+		90FA2FC420639D08001E18B5 /* EPMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMediator.m; sourceTree = "<group>"; };
+		90FA2FC520639D08001E18B5 /* EPViewManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPViewManagerProtocol.h; sourceTree = "<group>"; };
+		90FA2FC620639D08001E18B5 /* EPViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPViewModelProtocol.h; sourceTree = "<group>"; };
+		90FA2FC720639D08001E18B5 /* EPViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPViewProtocol.h; sourceTree = "<group>"; };
+		90FA2FC820639D08001E18B5 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		90FA2FC920639D08001E18B5 /* NSObject+TTProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TTProperties.h"; sourceTree = "<group>"; };
+		90FA2FCA20639D08001E18B5 /* NSObject+TTProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TTProperties.m"; sourceTree = "<group>"; };
+		90FA2FCB20639D08001E18B5 /* UIView+TTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTAdditions.h"; sourceTree = "<group>"; };
+		90FA2FCC20639D08001E18B5 /* UIView+TTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTAdditions.m"; sourceTree = "<group>"; };
+		90FA2FCD20639D08001E18B5 /* UIView+TTConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTConfigure.h"; sourceTree = "<group>"; };
+		90FA2FCE20639D08001E18B5 /* UIView+TTConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTConfigure.m"; sourceTree = "<group>"; };
+		90FA2FCF20639D08001E18B5 /* UIView+TTEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTEvents.h"; sourceTree = "<group>"; };
+		90FA2FD020639D08001E18B5 /* UIView+TTEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTEvents.m"; sourceTree = "<group>"; };
+		90FA2FD320639D08001E18B5 /* TTSecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSecViewController.h; sourceTree = "<group>"; };
+		90FA2FD420639D08001E18B5 /* TTSecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSecViewController.m; sourceTree = "<group>"; };
+		90FA2FD520639D08001E18B5 /* TTSecViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTSecViewController.xib; sourceTree = "<group>"; };
+		90FA2FD720639D08001E18B5 /* TTSecInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSecInfo.h; sourceTree = "<group>"; };
+		90FA2FD820639D08001E18B5 /* TTSecInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSecInfo.m; sourceTree = "<group>"; };
+		90FA2FDA20639D08001E18B5 /* TTCommmonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCommmonView.h; sourceTree = "<group>"; };
+		90FA2FDB20639D08001E18B5 /* TTCommmonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCommmonView.m; sourceTree = "<group>"; };
+		90FA2FDD20639D08001E18B5 /* TTSecViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSecViewManager.h; sourceTree = "<group>"; };
+		90FA2FDE20639D08001E18B5 /* TTSecViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSecViewManager.m; sourceTree = "<group>"; };
+		90FA2FE020639D08001E18B5 /* TTSecViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSecViewModel.h; sourceTree = "<group>"; };
+		90FA2FE120639D08001E18B5 /* TTSecViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSecViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,9 @@
 		90FA2F9920639CAC001E18B5 /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				90FA2FB020639D08001E18B5 /* FirstExample */,
+				90FA2FC220639D08001E18B5 /* MVVMKit */,
+				90FA2FD120639D08001E18B5 /* SecondExample */,
 				90FA2F9A20639CAC001E18B5 /* AppDelegate.h */,
 				90FA2F9B20639CAC001E18B5 /* AppDelegate.m */,
 				90FA2F9D20639CAC001E18B5 /* ViewController.h */,
@@ -69,6 +127,144 @@
 				90FA2FA920639CAC001E18B5 /* main.m */,
 			);
 			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		90FA2FB020639D08001E18B5 /* FirstExample */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FB120639D08001E18B5 /* Controller */,
+				90FA2FB520639D08001E18B5 /* Model */,
+				90FA2FB820639D08001E18B5 /* View */,
+				90FA2FBC20639D08001E18B5 /* ViewManager */,
+				90FA2FBF20639D08001E18B5 /* ViewModel */,
+			);
+			path = FirstExample;
+			sourceTree = "<group>";
+		};
+		90FA2FB120639D08001E18B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FB220639D08001E18B5 /* TTFirstViewController.h */,
+				90FA2FB320639D08001E18B5 /* TTFirstViewController.m */,
+				90FA2FB420639D08001E18B5 /* TTFirstViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90FA2FB520639D08001E18B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FB620639D08001E18B5 /* TTFirstInfo.h */,
+				90FA2FB720639D08001E18B5 /* TTFirstInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90FA2FB820639D08001E18B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FB920639D08001E18B5 /* TTCommonTableViewCell.h */,
+				90FA2FBA20639D08001E18B5 /* TTCommonTableViewCell.m */,
+				90FA2FBB20639D08001E18B5 /* TTCommonTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90FA2FBC20639D08001E18B5 /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FBD20639D08001E18B5 /* TTFirstViewManager.h */,
+				90FA2FBE20639D08001E18B5 /* TTFirstViewManager.m */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		90FA2FBF20639D08001E18B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FC020639D08001E18B5 /* TTFirstViewModel.h */,
+				90FA2FC120639D08001E18B5 /* TTFirstViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		90FA2FC220639D08001E18B5 /* MVVMKit */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FC320639D08001E18B5 /* EPMediator.h */,
+				90FA2FC420639D08001E18B5 /* EPMediator.m */,
+				90FA2FC520639D08001E18B5 /* EPViewManagerProtocol.h */,
+				90FA2FC620639D08001E18B5 /* EPViewModelProtocol.h */,
+				90FA2FC720639D08001E18B5 /* EPViewProtocol.h */,
+				90FA2FC820639D08001E18B5 /* Header.h */,
+				90FA2FC920639D08001E18B5 /* NSObject+TTProperties.h */,
+				90FA2FCA20639D08001E18B5 /* NSObject+TTProperties.m */,
+				90FA2FCB20639D08001E18B5 /* UIView+TTAdditions.h */,
+				90FA2FCC20639D08001E18B5 /* UIView+TTAdditions.m */,
+				90FA2FCD20639D08001E18B5 /* UIView+TTConfigure.h */,
+				90FA2FCE20639D08001E18B5 /* UIView+TTConfigure.m */,
+				90FA2FCF20639D08001E18B5 /* UIView+TTEvents.h */,
+				90FA2FD020639D08001E18B5 /* UIView+TTEvents.m */,
+			);
+			path = MVVMKit;
+			sourceTree = "<group>";
+		};
+		90FA2FD120639D08001E18B5 /* SecondExample */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FD220639D08001E18B5 /* Controller */,
+				90FA2FD620639D08001E18B5 /* Model */,
+				90FA2FD920639D08001E18B5 /* View */,
+				90FA2FDC20639D08001E18B5 /* ViewManager */,
+				90FA2FDF20639D08001E18B5 /* ViewModel */,
+			);
+			path = SecondExample;
+			sourceTree = "<group>";
+		};
+		90FA2FD220639D08001E18B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FD320639D08001E18B5 /* TTSecViewController.h */,
+				90FA2FD420639D08001E18B5 /* TTSecViewController.m */,
+				90FA2FD520639D08001E18B5 /* TTSecViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90FA2FD620639D08001E18B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FD720639D08001E18B5 /* TTSecInfo.h */,
+				90FA2FD820639D08001E18B5 /* TTSecInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90FA2FD920639D08001E18B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FDA20639D08001E18B5 /* TTCommmonView.h */,
+				90FA2FDB20639D08001E18B5 /* TTCommmonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90FA2FDC20639D08001E18B5 /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FDD20639D08001E18B5 /* TTSecViewManager.h */,
+				90FA2FDE20639D08001E18B5 /* TTSecViewManager.m */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		90FA2FDF20639D08001E18B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90FA2FE020639D08001E18B5 /* TTSecViewModel.h */,
+				90FA2FE120639D08001E18B5 /* TTSecViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				90FA2FA720639CAC001E18B5 /* LaunchScreen.storyboard in Resources */,
+				90FA2FE620639D08001E18B5 /* TTCommonTableViewCell.xib in Resources */,
+				90FA2FE320639D08001E18B5 /* TTFirstViewController.xib in Resources */,
 				90FA2FA420639CAC001E18B5 /* Assets.xcassets in Resources */,
+				90FA2FEF20639D08001E18B5 /* TTSecViewController.xib in Resources */,
 				90FA2FA220639CAC001E18B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,7 +342,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				90FA2F9F20639CAC001E18B5 /* ViewController.m in Sources */,
+				90FA2FE820639D08001E18B5 /* TTFirstViewModel.m in Sources */,
+				90FA2FF320639D08001E18B5 /* TTSecViewModel.m in Sources */,
+				90FA2FED20639D08001E18B5 /* UIView+TTEvents.m in Sources */,
+				90FA2FF120639D08001E18B5 /* TTCommmonView.m in Sources */,
+				90FA2FE220639D08001E18B5 /* TTFirstViewController.m in Sources */,
+				90FA2FE920639D08001E18B5 /* EPMediator.m in Sources */,
+				90FA2FEA20639D08001E18B5 /* NSObject+TTProperties.m in Sources */,
 				90FA2FAA20639CAC001E18B5 /* main.m in Sources */,
+				90FA2FE420639D08001E18B5 /* TTFirstInfo.m in Sources */,
+				90FA2FE520639D08001E18B5 /* TTCommonTableViewCell.m in Sources */,
+				90FA2FEB20639D08001E18B5 /* UIView+TTAdditions.m in Sources */,
+				90FA2FEC20639D08001E18B5 /* UIView+TTConfigure.m in Sources */,
+				90FA2FF020639D08001E18B5 /* TTSecInfo.m in Sources */,
+				90FA2FF220639D08001E18B5 /* TTSecViewManager.m in Sources */,
+				90FA2FE720639D08001E18B5 /* TTFirstViewManager.m in Sources */,
+				90FA2FEE20639D08001E18B5 /* TTSecViewController.m in Sources */,
 				90FA2F9C20639CAC001E18B5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

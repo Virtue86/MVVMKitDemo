@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TTSecViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    TTSecViewController *rootVC = [TTSecViewController new];
+    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];    return YES;
 }
 
 
